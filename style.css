@@ -41,7 +41,9 @@ body * {
 }
 
 #container {
-  width: 360px; /*largura*/
+  width: 100%; 
+  max-width: 588px;
+  /*largura*/
   /*height: 712px; altura*/
   /*border: 1px red; /*borda*/
   /*margin-right: auto;/*margem left e right podem ser substituido por apenas margin;auto
