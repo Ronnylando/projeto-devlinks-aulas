@@ -25,37 +25,21 @@
 }
 
 body {
-  /*background-image: url(./assets/assets/bg-mobile.jpg);
-  background-repeat:no-repeat;
-  background-position:top center;
-  background-size: cover;*/
-
-  /*background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
-/*body *{} seletor universal*/
 
 body * {
   font-family: "Inter", sans-serif;
-  color: var(--text-color); /* cores da letras*/
+  color: var(--text-color); 
 }
 
 #container {
   width: 100%;
   max-width: 588px;
-  /*largura*/
-  /*height: 712px; altura*/
-  /*border: 1px red; /*borda*/
-  /*margin-right: auto;/*margem left e right podem ser substituido por apenas margin;auto
-  margin-left: auto;*/
-  margin: 56px auto 0px;
+   margin: 56px auto 0px;
   padding: 24px;
 }
-
-/*#profile {
-  text-align: center;
-} posso centralizar com este comando porem caso tenha algum display block nao irá funcionar ja que o display block pega toda a largura disponivel.*/
 
 #profile {
   text-align: center;
@@ -115,9 +99,6 @@ body * {
   border-radius: 9999px;
 }
 
-/*<li>
-        <a href="#">veja meu contrato</a> onde tem # é pra colocar o site de destino e ao colocar target="_blank" ao clickar ira abri outra pagina 
-      </li>*/
 ul {
   list-style: none;
 
@@ -148,13 +129,11 @@ ul li a {
   transition: background 0.2;
 }
 
-/* pseudo-selector*/
 ul li a:hover {
   background: var(--sufarce-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
-/*social links*/
 #social-links {
   display: flex;
   justify-content: center; /* para alinhar ao meio*/
